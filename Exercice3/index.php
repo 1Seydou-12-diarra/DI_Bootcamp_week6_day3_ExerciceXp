@@ -20,7 +20,6 @@ echo $nombre." : ".$result."\n";
 }
 terneray_operator(32);
 terneray_operator(21);
-terneray_operator(12);
 terneray_operator(3);
 
 ?>

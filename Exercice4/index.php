@@ -30,14 +30,28 @@ function word_digit($word) {
             case 'four':
                 $result .= '4';
                 break;
-                
-              
+             case 'five':
+                $result .='5';
+            case   'six':
+                $result.= '6';
+                break;
+             case 'seven':
+                $result.= '7';
+                break;
+              case 'eight':
+                $result.= '8';
+                break;
+                case 'nine':
+                $result.= '9';
+                break;     
+        
         }
     }
     return $result;
 }
 
-echo word_digit("zero;three;one")."\n";
+echo word_digit("nine;five;three;one;six;eight")."\n";
+echo word_digit("one;five;eight")."\n";
 
 ?>
 </body>

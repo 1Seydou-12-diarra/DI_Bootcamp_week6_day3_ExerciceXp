@@ -13,7 +13,7 @@ function word_digit($word) {
     $string = explode(';',$word);
     $result = '';
     foreach($string as $value){
-        //trim() function qui retourne la chaîne string
+        //trim() function qui suprime les espaces du debut et a la fin d'une chaîne 
         switch(trim($value)){
             case 'zero':
                 $result .= '0';
